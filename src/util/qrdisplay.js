@@ -90,7 +90,7 @@ const introModalDisplay = (appName) => {
         <div id="uport-continue-btn" style="${uportModalContinueBtn}">
           <span style="${uportModalLogo}">${SVG.logo}</span>
           <span>&nbsp;&nbsp;</span>
-          <span>Continue with uPort</span>
+          <span>Continue with xClaim</span>
         </div>
 
     </div>
@@ -116,7 +116,7 @@ const introModalDisplay = (appName) => {
 const uportQRDisplay = ({qrImageUri}) => uportModal(`
   <div>
     <div style="${uportLogoWithBg}">${SVG.logowithBG}</div>
-    <p id="uport-qr-text" style="${uportQRInstructions}">Scan QR code with uPort Mobile App</p>
+    <p id="uport-qr-text" style="${uportQRInstructions}">Scan QR code with XClaim Mobile App</p>
     <img src="${qrImageUri}" style="${uportQRIMG}" />
   </div>
 `)
